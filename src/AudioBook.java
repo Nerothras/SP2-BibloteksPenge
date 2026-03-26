@@ -10,7 +10,7 @@ public class AudioBook extends Title {
 
     @Override
     public double calculatePoints() {
-        // (varighed i minutter × 0.5) × litteraturtype × eksemplarer
+
         return (durationInMinutes * 0.5) * convertLiteratureType() * copies;
     }
 }
